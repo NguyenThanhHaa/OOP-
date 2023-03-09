@@ -8,8 +8,8 @@ package bai1;
  *
  * @author thanh ha
  */
-public class HoaQua {
-    public class Hoaqua 
+import java.util.Scanner;
+public class HoaQua 
 {
     private String xuatxu;
     private int soluong;
@@ -17,7 +17,7 @@ public class HoaQua {
     private String ngaynhap;
 
 
-public Hoaqua (String xuatxu, int soluong, double giatien, String ngaynhap)
+public HoaQua (String xuatxu, int soluong, double giatien, String ngaynhap)
 {   
     setXuatxu(xuatxu);
     setSoluong(soluong);
